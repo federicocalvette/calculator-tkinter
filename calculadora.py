@@ -14,46 +14,27 @@ entrada_txt.grid(row=0, column=0, columnspan=4, padx=11, pady=5)
 fa = Ops(entrada_txt)
 
 # Botones para operadores
-boton_borrar = Button(ventana, text=chr(9003), width=5,
-                      height=2, command=lambda: fa.click_borrar(), bg='red')
-boton_parentesis_izq = Button(
-    ventana, text="(", width=5, height=2, command=lambda: fa.click_boton( "("))
-boton_parentesis_der = Button(
-    ventana, text=")", width=5, height=2, command=lambda: fa.click_boton( ")"))
-boton_punto = Button(ventana, text=".", width=5, height=2,
-                     command=lambda: fa.click_boton( "."))
-boton_division = Button(ventana, text=chr(247), width=5,
-                        height=2, command=lambda: fa.click_boton( "/"))
-boton_multiplicacion = Button(
-    ventana, text="x", width=5, height=2, command=lambda: fa.click_boton( "*"))
-boton_suma = Button(ventana, text="+", width=5, height=2,
-                    command=lambda: fa.click_boton( "+"))
-boton_resta = Button(ventana, text="-", width=5, height=2,
-                     command=lambda: fa.click_boton( "-"))
-boton_es_igual = Button(ventana, text="=", width=5,
-                        height=2, command=lambda: fa.operacion(), bg='green')
+boton_borrar = Button(ventana, text=chr(9003), width=5, height=2, command=lambda: fa.click_borrar(), bg='red')
+boton_parentesis_izq = Button(ventana, text="(", width=5, height=2, command=lambda: fa.click_boton( "("))
+boton_parentesis_der = Button(ventana, text=")", width=5, height=2, command=lambda: fa.click_boton( ")"))
+boton_punto = Button(ventana, text=".", width=5, height=2, command=lambda: fa.click_boton( "."))
+boton_division = Button(ventana, text=chr(247), width=5, height=2, command=lambda: fa.click_boton( "/"))
+boton_multiplicacion = Button(ventana, text="x", width=5, height=2, command=lambda: fa.click_boton( "*"))
+boton_suma = Button(ventana, text="+", width=5, height=2, command=lambda: fa.click_boton( "+"))
+boton_resta = Button(ventana, text="-", width=5, height=2, command=lambda: fa.click_boton( "-"))
+boton_es_igual = Button(ventana, text="=", width=5, height=2, command=lambda: fa.operacion(), bg='green')
 
 # Botones numericos
-boton1 = Button(ventana, text="1", width=5, height=2,
-                command=lambda: fa.click_boton( 1))
-boton2 = Button(ventana, text="2", width=5, height=2,
-                command=lambda: fa.click_boton( 2))
-boton3 = Button(ventana, text="3", width=5, height=2,
-                command=lambda: fa.click_boton( 3))
-boton4 = Button(ventana, text="4", width=5, height=2,
-                command=lambda: fa.click_boton( 4))
-boton5 = Button(ventana, text="5", width=5, height=2,
-                command=lambda: fa.click_boton( 5))
-boton6 = Button(ventana, text="6", width=5, height=2,
-                command=lambda: fa.click_boton( 6))
-boton7 = Button(ventana, text="7", width=5, height=2,
-                command=lambda: fa.click_boton( 7))
-boton8 = Button(ventana, text="8", width=5, height=2,
-                command=lambda: fa.click_boton( 8))
-boton9 = Button(ventana, text="9", width=5, height=2,
-                command=lambda: fa.click_boton( 9))
-boton0 = Button(ventana, text="0", width=18, height=2,
-                command=lambda: fa.click_boton( 0))
+boton1 = Button(ventana, text="1", width=5, height=2,command=lambda: fa.click_boton( 1))
+boton2 = Button(ventana, text="2", width=5, height=2,command=lambda: fa.click_boton( 2))
+boton3 = Button(ventana, text="3", width=5, height=2,command=lambda: fa.click_boton( 3))
+boton4 = Button(ventana, text="4", width=5, height=2,command=lambda: fa.click_boton( 4))
+boton5 = Button(ventana, text="5", width=5, height=2,command=lambda: fa.click_boton( 5))
+boton6 = Button(ventana, text="6", width=5, height=2,command=lambda: fa.click_boton( 6))
+boton7 = Button(ventana, text="7", width=5, height=2,command=lambda: fa.click_boton( 7))
+boton8 = Button(ventana, text="8", width=5, height=2,command=lambda: fa.click_boton( 8))
+boton9 = Button(ventana, text="9", width=5, height=2,command=lambda: fa.click_boton( 9))
+boton0 = Button(ventana, text="0", width=18, height=2,command=lambda: fa.click_boton( 0))
 
 # Imprimir botones en ventana
 # Fila 1
